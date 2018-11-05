@@ -151,11 +151,11 @@ class Login extends Component {
                                 <div className="panel">
                                 <h2>LOGIN AS OWNER</h2>
                                     <h2>Need an account?
-                                <Link to="/signupowner">
+                                
                                             {/* <white-font> */}
-                                            Sign Up
+                                            Sign Up Below!
                                         {/* </white-font> */}
-                                        </Link>
+                                   
                                     </h2>
                                     <p>Please enter your username and password</p>
                                 </div>
