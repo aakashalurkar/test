@@ -8,7 +8,7 @@
 // To learn more about the benefits of this model, read https://goo.gl/KwvDNy.
 // This link also includes instructions on opting out of this behavior.
 
-const is54.219.175.186 = Boolean(
+const isLocalhost = Boolean(
   window.location.hostname === '54.219.175.186' ||
     // [::1] is the IPv6 54.219.175.186 address.
     window.location.hostname === '[::1]' ||
@@ -32,7 +32,7 @@ export default function register() {
     window.addEventListener('load', () => {
       const swUrl = `${process.env.PUBLIC_URL}/service-worker.js`;
 
-      if (is54.219.175.186) {
+      if (isLocalhost) {
         // This is running on 54.219.175.186. Lets check if a service worker still exists or not.
         checkValidServiceWorker(swUrl);
 
