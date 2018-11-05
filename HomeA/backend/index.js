@@ -26,7 +26,7 @@ var con =mysql.createConnection({
 app.set('view engine', 'ejs');
 
 
-app.use(cors({ origin: 'http://localhost:3000', credentials: true }));
+app.use(cors({}));
 
 
 app.use(session({
