@@ -94,7 +94,7 @@ const styles = theme => ({
    
        axios.defaults.withCredentials = true;
        console.log(data);
-       axios.post('http://localhost:3001/travellersignup',data)
+       axios.post('http://54.219.175.186:3001/travellersignup',data)
            .then(response => {
                console.log("Status Code : ",response.status);
                if(response.status === 200){

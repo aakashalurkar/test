@@ -58,7 +58,7 @@ class ShowProperty extends Component {
       }
       console.log("in show property")
       console.log(data)
-      axios.get('http://localhost:3001/getproperty',{ params: { data: data}})
+      axios.get('http://54.219.175.186:3001/getproperty',{ params: { data: data}})
               .then((response) => {
               
               const data = JSON.stringify(response.data)

@@ -208,7 +208,7 @@ class DrawerList extends React.Component {
       minimumstay: this.minimumstay
     };
     console.log(data)
-    axios.post("http://localhost:3001/addproperty", data).then(result => {
+    axios.post("http://54.219.175.186:3001/addproperty", data).then(result => {
       // access results...
     });
     window.location = "/ownerlogin"

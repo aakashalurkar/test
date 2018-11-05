@@ -27,7 +27,7 @@ class Photo extends React.Component {
    
         axios.defaults.withCredentials = true;
 
-        axios.post('http://localhost:3001/photo',data)
+        axios.post('http://54.219.175.186:3001/photo',data)
             .then(response => {
                 //console.log("Status Code : ",response.status);
                 if(response.status === 200){

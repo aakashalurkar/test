@@ -85,7 +85,7 @@ handleChange = name => event => {
      console.log(data)
       axios.defaults.withCredentials = true;
 
-      axios.post('http://localhost:3001/bookproperty',data)
+      axios.post('http://54.219.175.186:3001/bookproperty',data)
           .then(response => {
               console.log("Status Code : ",response.status);
               if(response.status === 200){
@@ -115,7 +115,7 @@ handleChange = name => event => {
         
        }
        console.log(data)
-       axios.post('http://localhost:3001/message',data)
+       axios.post('http://54.219.175.186:3001/message',data)
        .then(response => {
            console.log("Status Code : ",response.status);
            if(response.status === 200){

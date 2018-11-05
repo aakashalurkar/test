@@ -64,7 +64,7 @@ class CardOwner extends Component {
       //console.log(data)
       axios.defaults.withCredentials = true;
 
-      axios.post('http://localhost:3001/bookproperty',data)
+      axios.post('http://54.219.175.186:3001/bookproperty',data)
           .then(response => {
               console.log("Status Code : ",response.status);
               if(response.status === 200){

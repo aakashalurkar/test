@@ -90,7 +90,7 @@ class Login extends Component {
 
         axios.defaults.withCredentials = true;
 
-        axios.post('http://localhost:3001/ownerlogin', data)
+        axios.post('http://54.219.175.186:3001/ownerlogin', data)
             .then(response => {
                 console.log("Status Code : ", response.status);
                 console.log(response.data.updatedList[0]._id)

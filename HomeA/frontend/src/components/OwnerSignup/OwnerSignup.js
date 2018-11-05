@@ -73,7 +73,7 @@ class OwnerSignup extends React.Component {
 
     axios.defaults.withCredentials = true;
     console.log(data);
-    axios.post('http://localhost:3001/ownersignup', data)
+    axios.post('http://54.219.175.186:3001/ownersignup', data)
       .then(response => {
         console.log("Status Code : ", response.status);
         if (response.status === 200) {

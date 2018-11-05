@@ -6,7 +6,7 @@ export const FETCH_TRAVELLER_SIGNUP = "traveller_signup";
 
 export const FETCH_OWNER_POST_PROPERTY = "owner_post_property";
 
-const ROOT_URL = "http://localhost:3001";
+const ROOT_URL = "http://54.219.175.186:3001";
 
 //target action
 

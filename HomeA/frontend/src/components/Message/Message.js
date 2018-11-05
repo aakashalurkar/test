@@ -68,7 +68,7 @@ class ShowProperty extends Component {
             });
           
       console.log(data)
-      //     axios.get('http://localhost:3001/checkowner',{ params: { data: data}})
+      //     axios.get('http://54.219.175.186:3001/checkowner',{ params: { data: data}})
       //     .then((response) => {
       //       //console.log("Status Code : ",response.data);
       //       if(response.data === 400){
@@ -84,7 +84,7 @@ class ShowProperty extends Component {
           
           
       // });
-      axios.get('http://localhost:3001/message',{ params: { data: data}})
+      axios.get('http://54.219.175.186:3001/message',{ params: { data: data}})
               .then((response) => {
                 //console.log("Status Code : ",response.data);
               //   if(response.data === 400){

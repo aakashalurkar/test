@@ -30,7 +30,7 @@ class PhotoComponent extends Component {
 
       formData.append("selectedFile", selectedFile[size]);
 
-      axios.post("http://localhost:3001/photoupload", formData).then(result => {
+      axios.post("http://54.219.175.186:3001/photoupload", formData).then(result => {
         // access results...
       });
     }
